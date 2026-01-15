@@ -31,7 +31,8 @@ async function request(path) {
 
 /* ================== API FUNCTIONS ================== */
 
-export const getTrending = () => request("/trending/movie/day");
+export const getTrending = (page = 1) =>
+  request(`/trending/movie/day?page=${page}`);
 
 export const searchMovies = (query) =>
   request(`/search/movie?query=${encodeURIComponent(query)}`);

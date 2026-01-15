@@ -134,7 +134,7 @@ export default function MovieDetails() {
             </Text>
           </View>
 
-          <Text style={{ marginTop: 10, color: t.muted }}>
+          <Text style={{ marginTop: 5, color: t.muted }}>
             Trailer • Watchlist • Cast
           </Text>
         </View>
