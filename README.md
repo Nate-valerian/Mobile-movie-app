@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 🎬 Mobile Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A production-quality **mobile movie discovery app** built with **React Native and Expo**, focused on cinematic UI, smooth interactions, and clean UX patterns.
 
-## Get started
+Designed to demonstrate real-world mobile architecture, thoughtful UI density, and polished user experience rather than just API consumption.
 
-1. Install dependencies
+## 🔹 What This App Demonstrates
 
-   ```bash
-   npm install
-   ```
+- **Strong mobile UI composition**
+  - Balanced grid density for small screens
+  - Featured content without visual overload
 
-2. Start the app
+- **User-centric experience**
+  - Fast discovery (Trending + Search)
+  - Persistent Watchlist with gesture-based actions
+  - Clear information hierarchy on detail screens
 
-   ```bash
-   npx expo start
-   ```
+- **Polished interactions**
+  - Shimmer loading states
+  - Haptic feedback
+  - Smooth navigation with Expo Router
 
-In the output, you'll find options to open the app in a
+- **Maintainable architecture**
+  - Reusable components
+  - Centralized theming
+  - Clean separation between UI, hooks, and API layer
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Key Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Trending & Featured movies
+- Smart search with suggestions
+- Watchlist with swipe-to-delete
+- Detailed movie view (trailer, cast, metadata)
+- Bluish cinematic (IMDb-style) theme
+- Offline-friendly local storage
 
-## Get a fresh project
+## 🛠️ Tech Stack
 
-When you're ready, run:
+- React Native
+- Expo
+- Expo Router
+- TMDB API
+- React Native Gesture Handler
+- AsyncStorage
+- Expo Haptics
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img width="1200" height="700" alt="minimal" src="https://github.com/user-attachments/assets/1264ba52-c69a-4a5c-843c-6130d3e72b22" />
